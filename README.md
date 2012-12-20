@@ -18,5 +18,45 @@ Here is the list of the most notable packages at the moment:
     * session: transparent PHP session wrappers with painless persistence of objects
     * ..see more packages on Limb3 PEAR channel!
 
-If you have any questions and need support, don't hesitate contacting us at forum(http://limb-project.com/support)
-or one of the mailing lists(http://lists.limb-project.com).
+If you have any questions and need support, don't hesitate contacting us at [forum](http://limb-project.com/support)
+or one of the [mailing lists](http://lists.limb-project.com).
+
+# Русский
+## Limb PHP Framework
+Limb (Library of Interdependent Modules and Blocks) — это [OpenSource](http://en.wikipedia.org/wiki/OpenSource) ([LGPL](http://en.wikipedia.org/wiki/LGPL)) фреймворк, ориентированный на быстрое прототипирование и разработку веб-приложений на PHP5. Limb содержит множество относительно независимых компонентов, пригодных для повторного использования. В том числе вместе с другими фреймворками и библиотеками.
+* Введение
+* FAQ
+* Документация
+* Пример создания простейшего CRUD-приложения
+* Пример создания простейшего CRUD-приложения
+* CodeBits
+* Скачать
+* [Issue tracker](https://github.com/limb-php-framework/limb/issues)
+
+##Limb CMS
+Независимая [CMS](http://en.wikipedia.org/wiki/CMS), основанная на Limb PHP Framework.
+* Документация
+* [Скачать](https://github.com/limb-php-framework/limb-cms/downloads)
+* [Issue tracker](https://github.com/limb-php-framework/limb-cms/issues)
+
+## testman
+testman — набор средств для организации и запуска SimpleTest тестов для приложений, которые содержат большие тестовые наборы. В поставку входят классы, которые позволяют выполнять тесты в cli или web-режиме.
+* Документация
+* [Скачать](https://github.com/limb-php-framework/limb-app-testman/downloads)
+* [Issue tracker](https://github.com/limb-php-framework/limb-app-testman/issues)
+
+## taskman
+Утилита taskman является аналогом ant, pake, etc и предназначен для выполнения абстрактных «задач».
+* Документация
+* [Скачать](https://github.com/limb-php-framework/limb-app-taskman/downloads)
+* [Issue tracker](https://github.com/limb-php-framework/limb-app-taskman/issues)
+
+#English
+##Limb PHP Framework
+Limb is an OpenSource(LGPL) Library of Interdependent Modules and Blocks mostly aimed for rapid web application prototyping and development with PHP5.
+
+Limb consists of many reusable components and you can cherry pick the ones you need and combine them with other frameworks and libraries(e.g. Zend Framework, Symfony, PEAR, etc).
+
+If you would like to see Limb in action have a look at CodeBits section where you can find code samples as well as applications built on this framework.
+
+The easiest way to get almost immediate feedback from core Limb developers is to ask your question at the GitHub. Don't hesitate asking even the most trivial questions and issues - we're there to help you.
