@@ -1,30 +1,7 @@
-################################################################################
-            Limb3 Web Application Framework - http://limb-project.com
-################################################################################
-
-Limb3 is a general PHP5 only Web Application Framework consisting of many packages.
-
-Here is the list of the most notable packages at the moment:
-
-    * core: the base system package which provides lazy loading of PHP code, iterators support,
-            generic object containers, decorators generators, transparent object proxies, etc
-    * toolkit: dependency injection tools
-    * filter_chain: InterceptingFilter design pattern implementation
-    * macro: template subsystem
-    * web_app: FrontController and MVC patterns implementation.
-    * active_record: ActiveRecord pattern implementation (Rails alike flavour, http://rubyonrails.com/)
-    * dbal: Database Abstraction Layer which supports MySql, PostreSQL and Oracle at the moment.
-    * tests_runner: unit testing tools built around excellent SimpleTest library (http://simpletest.org)
-    * session: transparent PHP session wrappers with painless persistence of objects
-    * ..see more packages on Limb3 PEAR channel!
-
-If you have any questions and need support, don't hesitate contacting us at [forum](http://limb-project.com/support)
-or one of the [mailing lists](http://lists.limb-project.com).
-
 # Русский
 ## Limb PHP Framework
 Limb (Library of Interdependent Modules and Blocks) — это [OpenSource](http://en.wikipedia.org/wiki/OpenSource) ([LGPL](http://en.wikipedia.org/wiki/LGPL)) фреймворк, ориентированный на быстрое прототипирование и разработку веб-приложений на PHP5. Limb содержит множество относительно независимых компонентов, пригодных для повторного использования. В том числе вместе с другими фреймворками и библиотеками.
-* [span class="yellow"]Введение[span]
+* ~Введение~
 * **FAQ**
 * **Документация**
 * **Пример создания простейшего CRUD-приложения**
