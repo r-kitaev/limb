@@ -34,9 +34,6 @@ Limb consists of many reusable components and you can cherry pick the ones you n
 If you would like to see Limb in action have a look at CodeBits section where you can find code samples as well as applications built on this framework.
 The easiest way to get almost immediate feedback from core Limb developers is to ask your question at the [GitHub](https://github.com/limb-php-framework/limb/issues). Don't hesitate asking even the most trivial questions and issues — we're there to help you.
 
-###Documentation
-Unfortunately, there's no complete English documentation for Limb3 yet. We're working on Russian version of documentation at the moment. If you have good Russian-to-English translation skills and would like to volunteer, please don't hesitate [contacting us](https://github.com/limb-php-framework).
-
 * [Introduction](docs/en/for_beginners.md)
 * [Roadmap](docs/roadmap.md)
 * [Documentation](docs/en.md)
