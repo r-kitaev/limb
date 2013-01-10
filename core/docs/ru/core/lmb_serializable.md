@@ -1,0 +1,1 @@
+# lmb_serializable.md
