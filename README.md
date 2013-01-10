@@ -37,8 +37,11 @@ The easiest way to get almost immediate feedback from core Limb developers is to
 ###Documentation
 Unfortunately, there's no complete English documentation for Limb3 yet. We're working on Russian version of documentation at the moment. If you have good Russian-to-English translation skills and would like to volunteer, please don't hesitate [contacting us](https://github.com/limb-php-framework).
 
-* **Roadmap**
+* [Introduction](docs/en/for_beginners.md)
+* [Roadmap](docs/roadmap.md)
 * [Documentation](docs/en.md)
 * [FAQ](docs/en/faq.md)
+* [CRUD — basic example of Limb3](docs/en/tutorials/basic.md)
 * [CodeBits](docs/en/codebits.md)
+* [Download](docs/en/how_to_download.md)
 * [All limb projects](https://github.com/limb-php-framework)
