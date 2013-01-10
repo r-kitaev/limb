@@ -11,19 +11,19 @@ Limb (Library of Interdependent Modules and Blocks) — это [OpenSource](http
 
 ##Limb CMS
 Независимая [CMS](http://en.wikipedia.org/wiki/CMS), основанная на Limb PHP Framework.
-* **Документация**
+* [Документация](cms/docs/ru/cms.md)
 * [Скачать](https://github.com/limb-php-framework/limb-cms/downloads)
 * [Issue tracker](https://github.com/limb-php-framework/limb-cms/issues)
 
 ## testman
 testman — набор средств для организации и запуска SimpleTest тестов для приложений, которые содержат большие тестовые наборы. В поставку входят классы, которые позволяют выполнять тесты в cli или web-режиме.
-* **Документация**
+* [Документация](tests_runner/docs/ru/tests_runner.md)
 * [Скачать](https://github.com/limb-php-framework/limb-app-testman/downloads)
 * [Issue tracker](https://github.com/limb-php-framework/limb-app-testman/issues)
 
 ## taskman
 Утилита taskman является аналогом ant, pake, etc и предназначен для выполнения абстрактных «задач».
-* **Документация**
+* [Документация](taskman/docs/ru/taskman.md)
 * [Скачать](https://github.com/limb-php-framework/limb-app-taskman/downloads)
 * [Issue tracker](https://github.com/limb-php-framework/limb-app-taskman/issues)
 
@@ -38,9 +38,7 @@ The easiest way to get almost immediate feedback from core Limb developers is to
 Unfortunately, there's no complete English documentation for Limb3 yet. We're working on Russian version of documentation at the moment. If you have good Russian-to-English translation skills and would like to volunteer, please don't hesitate [contacting us](https://github.com/limb-php-framework).
 
 * **Roadmap**
-* **Documentation**
-* **FAQ**
-* **CodeBits**
+* [Documentation](docs/en.md)
+* [FAQ](docs/en/faq.md)
+* [CodeBits](docs/en/codebits.md)
 * [All limb projects](https://github.com/limb-php-framework)
-
-**Documentation for previous releases**
