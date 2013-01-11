@@ -15,13 +15,13 @@ Limb (Library of Interdependent Modules and Blocks) — это [OpenSource](http
 * [Скачать](https://github.com/limb-php-framework/limb-cms/downloads)
 * [Issue tracker](https://github.com/limb-php-framework/limb-cms/issues)
 
-## testman
+## Testman
 testman — набор средств для организации и запуска SimpleTest тестов для приложений, которые содержат большие тестовые наборы. В поставку входят классы, которые позволяют выполнять тесты в cli или web-режиме.
 * [Документация](tests_runner/docs/ru/tests_runner.md)
 * [Скачать](https://github.com/limb-php-framework/limb-app-testman/downloads)
 * [Issue tracker](https://github.com/limb-php-framework/limb-app-testman/issues)
 
-## taskman
+## Taskman
 Утилита taskman является аналогом ant, pake, etc и предназначен для выполнения абстрактных «задач».
 * [Документация](taskman/docs/ru/taskman.md)
 * [Скачать](https://github.com/limb-php-framework/limb-app-taskman/downloads)
