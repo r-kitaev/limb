@@ -7,7 +7,7 @@
 
 * **Вторым параметром в конструктор lmbActiveRecord**
 
-    $document = new Document($document_id, $my_connection);
+        $document = new Document($document_id, $my_connection);
     
 При этом объект подключения будет использовать для всех выборок внутри этого объекта, например, передаваться в связанные объекты, загруженные через этот объект, например:
 
@@ -15,15 +15,15 @@
     
 * **в find()-методы последним параметром**
 
-    $documents = lmbActiveRecord :: find('Document', 'section_id = ' . $section_id, $my_connection);
-    $document = lmbActiveRecord :: findFirst('Document', array(), $my_connection);
-    $sql = 'SELECT document.* FROM document ...';
-    $my_documents = lmbActiveRecord :: findBySql('Document', $sql, $my_connection);
-    // и т.д.
+        $documents = lmbActiveRecord :: find('Document', 'section_id = ' . $section_id, $my_connection);
+        $document = lmbActiveRecord :: findFirst('Document', array(), $my_connection);
+        $sql = 'SELECT document.* FROM document ...';
+        $my_documents = lmbActiveRecord :: findBySql('Document', $sql, $my_connection);
+        // и т.д.
 
 * **Использовать статический метод setDefaultConnection($conn)**
 
-    lmbActive :: setDefaultConnection($my_connection);
-    $document = new Document($document_id); // получит $my_connection
-    
+         lmbActive :: setDefaultConnection($my_connection);
+         $document = new Document($document_id); // получит $my_connection
+
 При использовании этого метода все объекты ActiveRecord будут использовать именно это подключение, если им не передано другое в конструктор.
