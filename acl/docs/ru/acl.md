@@ -171,3 +171,5 @@ ACL представляет из себя «звездный» объект, и
     var_dump($this->acl->isAllowed($approver, $article, 'edit')); //bool(false)
     var_dump($this->acl->isAllowed($approver, $article, 'approve')); //bool(true)
 
+## MACRO тег
+[allowed](../../../macro/docs/ru/macro/tags/acl_tags/allowed_tag.md)
