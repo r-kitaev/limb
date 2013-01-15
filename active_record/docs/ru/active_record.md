@@ -26,7 +26,6 @@
  * [Автоматическое сохранение даты создания и обновления объекта ActiveRecord](./active_record/ctime_utime.md)
 * ACTIVE_RECORD и шаблонизаторы
  * [Использование ACTIVE_RECORD в шаблонах MACRO](./active_record/in_macro_templates.md)
- * [Использование ACTIVE_RECORD в шаблонах WACT](./active_record/in_wact_templates.md)
 * Дополнительные примеры
  * [Создание древовидных структур на основе алгоритма materialized path](./active_record/materialized%20path.md)
  * [Редактирование нескольких объектов при помощи одной формы](./active_record/edit_multiple_objects.md)
