@@ -54,7 +54,7 @@ SPL содержит интерфейс [ArrayAccess](http://www.php.net/~helly/
 * Единая форма работы с массивами и объектами через интерфейс lmbSetInterface — оказалась удобной в шаблонах, когда вместо
 
     if(isset($item['some_property'])) 
-     echo $item['some_property']; 
+     echo $item['some_property'];
 
 можно просто написать
 
