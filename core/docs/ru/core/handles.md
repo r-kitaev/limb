@@ -13,4 +13,4 @@
 
     $filter = new lmbHandle('/src/filter/MyClasses.inc.php', array($params), 'lmbMyFilter');
 
-lmbHandle является полноценным lmbProxy[lmbProxy](./lmb_proxy.md)-объектом, поэтому при его использовании совсем не обязательно вызывать метод lmbHandle :: resolve() — это делается автоматически при первом обращении к любому методу или атрибуту lmbProxy-класса.
+lmbHandle является полноценным [lmbProxy](./lmb_proxy.md)-объектом, поэтому при его использовании совсем не обязательно вызывать метод lmbHandle :: resolve() — это делается автоматически при первом обращении к любому методу или атрибуту lmbProxy-класса.
