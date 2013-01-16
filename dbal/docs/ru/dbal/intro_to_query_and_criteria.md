@@ -2,7 +2,7 @@
 ## Использование Query
 Классы из [подсистемы Query](./query.md) инкапсулируют шаблон sql-запроса и предоставляют средства для расширения (заполнения) этого шаблона. Поясним на примере.
 
-Возьмем класс [lmbSelectQuery](.lmb_select_query.md):
+Возьмем класс [lmbSelectQuery](./lmb_select_query.md):
 
     $connection = ...
     $query = new lmbSelectQuery('news', $connection);
@@ -16,7 +16,7 @@
     $query->addCriteria('date < ' . time() - 60*60*24);
     $query->addCriteria('comments.news_id = news.id');
 
-Так как класс [lmbSelectQuery](.lmb_select_query.md) поддерживает chaining, а также есть набор алиасов на базовые методы, этот пример можно записать намного компактнее:
+Так как класс [lmbSelectQuery](./lmb_select_query.md) поддерживает chaining, а также есть набор алиасов на базовые методы, этот пример можно записать намного компактнее:
 
     $query->from('comments')->field('comments.*')->where('news.date > ' . time() - 60*60*24)->where('comments.news_id = news.id');
 
