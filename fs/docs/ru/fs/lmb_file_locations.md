@@ -1,1 +1,6 @@
-# lmb_file_locations.md
+# lmbFileLocations
+**lmbFileLocations** — интерфейс, состоящий из одного метода **getLocations($params = array());**, который возвращает массив путей (локаций, директорий), где локаторы должны искать файлы.
+
+Объект, реализующий интерфейс lmbFileLocations передается в [lmb_file_locator](./lmb_file_locator.md) в качестве параметра конструктора.
+
+**Параметр $params** метода getLocations($params = array()) используется, когда необходимо обеспечить возвращение особо списка локаций при наличии каких-либо условий. Переменная $params передается первоначально в метод locate($alias, $params = array()) интерфейса lmbLocator, затем уже передается в объект, реализующий lmbFileLocations.
