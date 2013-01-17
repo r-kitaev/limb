@@ -26,7 +26,7 @@
 Класс | Назначение
 ------|-----------
 [lmbFileLocator](./fs/lmb_file_locator.md) | Используется для поиска файлов по локациям, список которых определяются объектом, реализующим интерфейс [lmbFileLocations](./fs/lmb_file_locations.md). Этот объект передается в конструктор lmbFileLocator.
-[lmbFileLocatorDecorator] | Базовый декоратор на [lmbFileLocator](./fs/lmb_file_locator.md).
+**lmbFileLocatorDecorator** | Базовый декоратор на [lmbFileLocator](./fs/lmb_file_locator.md).
 [lmbCachingFileLocator](./fs/lmb_caching_file_locator.md) | Кеширующий lmbFileLocator. Позволяет значительно сократить время на поиск файлов. Наследуется от lmbFileLocatorDecorator
 интерфейс [lmbFileLocations](./fs/lmb_file_locations.md) | Интерфейс, состоящий из одного метода getLocations($params = array());. Возвращает массив путей, где локаторы должны искать файлы.
 [lmbFileLocationsList](./fs/lmb_file_locations_list.md) | Используется для составления списка локаций, где следует искать файл файловому локатору. Позволяет объединять явные пути, а также несколько объектов, реализующий lmbFileLocations в одно целое.
