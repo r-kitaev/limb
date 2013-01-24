@@ -19,26 +19,26 @@
 * Скомпилированный шаблон MACRO — это уникальный класс, содержащий различные методы. Скомпилированный шаблон WACT-а представляет из себя 2 функции: инициализирующая и исполняющая.
 * В MACRO **нет дерева контекстов данных**. Все данные в MACRO выводятся из php-переменных. Модификатор, который в WACT-е указывает на корневой контекст данных, в MACRO указывает на переменную из сгенерированного класса шаблона, то есть аналог $this→var_name. Например, вышеуказанный пример с тегом list можно записать в виде обычного php-кода и все станет ясно.
 
-    {{list using='$tags' as="$item"}}
-    <ul id='tags'>
-    {{list:item}}
-    <li><a href='/photo_category/item/{$#category.id}?tag={$item.id}' style="font-size:<?=($item['weight']+3)?>">{$item.title}</a></li>
-    {{/list:item}}
-    </ul>
-    {{/list}}
+         {{list using='$tags' as="$item"}}
+         <ul id='tags'>
+         {{list:item}}
+         <li><a href='/photo_category/item/{$#category.id}?tag={$item.id}' style="font-size:<?=($item['weight']+3)?>">{$item.title}</a></li>
+         {{/list:item}}
+         </ul>
+         {{/list}}
  
-    <?php // Теперь аналог на php
+         <?php // Теперь аналог на php
  
-    if(count($tags)) { ?>
-    <ul id='tags'>
-    <?php foreach($tags as $item} { ?>
-    <li><a href='/photo_category/item/<?php echo $this->category['id']; ?>?tag=<?php echo $item['id']; ?>' style="font-size:<?php echo($item['weight']+3)?>">
-    <?php echo $item['title']; ?>
-    </a>
-    </li>
-    <?php } ?>
-    </ul>
-    <?php } ?>
+         if(count($tags)) { ?>
+         <ul id='tags'>
+         <?php foreach($tags as $item} { ?>
+         <li><a href='/photo_category/item/<?php echo $this->category['id']; ?>?tag=<?php echo $item['id']; ?>' style="font-size:<?php echo($item['weight']+3)?>">
+         <?php echo $item['title']; ?>
+         </a>
+         </li>
+         <?php } ?>
+         </ul>
+         <?php } ?>
 
 (На самом деле код немного сложнее для обеспечения работы тегов **list:empty**, **list:fill** и других, но принцип должен быть понятен).
 
