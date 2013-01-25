@@ -20,7 +20,7 @@
 Любое.
 
 ## Пример использования
-Для [схемы]((../../../../../../acl/docs/ru/acl.md)) из документации на пакет ACL:
+Для [схемы]((../../../../../../acl/docs/ru/acl.md) из документации на пакет ACL:
 
     {{allowed role="member" resource="article" privelege="create" }}<a href="/article/create">create</a>{{/allowed}}
     {{allowed role="$member" resource="$article" privelege="edit" }}<a href="/article/edit/3">edit</a>{{/allowed}}
