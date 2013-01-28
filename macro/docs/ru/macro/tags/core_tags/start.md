@@ -14,8 +14,9 @@
 | | Расположение: **limb/macro/src/tags/core/**
 [{{apply}}](./apply_tag.md) | Вставляет часть шаблона, указанное в рамках какого-то тега [{{template}}](./template_tag.md). По сути это тот же [{{include}}](./include_tag.md), только включаемый шаблон находится в текущем шаблоне.
 [{{into}}](./into_tag.md)	| Вставляет часть шаблона в определенное место другого шаблона, отмеченное тегом [slot](./slot_tag.md). Используется внутри тега [wrap](./wrap_tag.md).
-Теги copy и cut | пример в тесте
-Теги newline, nospace, space, tab, trim	| пример в тесте
-repeat | пример в тесте
-assign | пример в тесте
-Тэги if, elseif, else	| пример в тесте
+[copy](https://github.com/limb-php-framework/limb/blob/Limb2010.1/macro/tests/cases/tags/core/lmbMacroCopyAndCutTagsTest.class.php#L12) | Копирует содержимое в переменную-буффер
+[cut](https://github.com/limb-php-framework/limb/blob/Limb2010.1/macro/tests/cases/tags/core/lmbMacroCopyAndCutTagsTest.class.php#L21)  | Перемещает содержимое в переменную-буффер
+[nospace, trim, space, tab](https://github.com/limb-php-framework/limb/blob/Limb2010.1/macro/tests/cases/tags/core/lmbMacroNospaceTagTest.class.php#L11)  | Позволяют вырезать пробельные символы сохраняя наглядность разметки
+[repeat](https://github.com/limb-php-framework/limb/blob/Limb2010.1/macro/tests/cases/tags/core/lmbMacroRepeatTagTest.class.php#L1) | Повторяет свое содержимое, указанное количество раз
+[assign](https://github.com/limb-php-framework/limb/blob/Limb2010.1/macro/tests/cases/tags/core/lmbMacroAssignTagTest.class.php#L1) | Копирует содержимое одной переменной в другую
+[Тэги if, elseif, else](https://github.com/limb-php-framework/limb/blob/Limb2010.1/macro/tests/cases/tags/core/lmbMacroIfAndElseIfAndElseTagsTest.class.php#L1)	| Ветвление тэгами
