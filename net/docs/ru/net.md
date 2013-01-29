@@ -8,5 +8,5 @@
 [lmbHttpRequest](./net/lmb_http_request.md) | Инкапсулирует HTTP Запрос к приложению.
 [lmbUri](./net/lmb_uri.md) | Используются для работы с URL-ами.
 [lmbHttpResponse](./net/lmb_http_response.md)	| Инкапсулирует HTTP Ответ от системы.
-[lmbHttpCache] | Используется для выдачи правильного HTTP Ответа системы пользователю в случае, если можно использовать кеш, хранимый в браузере, например, когда данные не изменялись.
-[lmbUploadedFilesParser] | Утилитарный класс. Используется внутри [lmbHttpRequest](./net/lmb_http_request.md) для обработка переменной $_FILES.
+[lmbHttpCache](./net/lmb_http_cache.md) | Используется для выдачи правильного HTTP Ответа системы пользователю в случае, если можно использовать кеш, хранимый в браузере, например, когда данные не изменялись.
+[lmbUploadedFilesParser](./net/lmb_uploaded_files_parser.md) | Утилитарный класс. Используется внутри [lmbHttpRequest](./net/lmb_http_request.md) для обработка переменной $_FILES.
