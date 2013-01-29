@@ -4,9 +4,9 @@
 
 ## Синтаксис
 
-{{pager:list}}
-__some___content__
-{{/pager:list}}
+    {{pager:list}}
+    __some___content__
+    {{/pager:list}}
 
 ## Область применения
 Должен быть дочерним тегом от [тега {{pager}}](./pager_tag.md).
