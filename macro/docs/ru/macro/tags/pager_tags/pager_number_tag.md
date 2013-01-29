@@ -7,13 +7,13 @@
 * **href** — ссылка на страницу
 * **number** — номер страницы
 
-            {{pager:number}}<a href='{$href}'>{$number}</a>{{/pager:number}}
+        {{pager:number}}<a href='{$href}'>{$number}</a>{{/pager:number}}
 
 ## Синтаксис
 
-{{pager:number}}
-__some___content__
-{{/pager:number}}
+    {{pager:number}}
+    __some___content__
+    {{/pager:number}}
 
 ## Область применения
 Должен быть дочерним тегом от [тега {{pager:list}}](./pager_list_tag.md).
