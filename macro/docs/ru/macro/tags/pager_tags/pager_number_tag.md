@@ -7,7 +7,7 @@
 * **href** — ссылка на страницу
 * **number** — номер страницы
 
-    {{pager:number}}<a href='{$href}'>{$number}</a>{{/pager:number}}
+            {{pager:number}}<a href='{$href}'>{$number}</a>{{/pager:number}}
 
 ## Синтаксис
 
