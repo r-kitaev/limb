@@ -1,1 +1,2 @@
-# lmb_abstract_tools.md
+# lmbAbstractTools
+lmbAbstractTools — абстрактный класс, используется в качестве базового при реализации своих наборов инструметов (tools). Формирует результат метода getToolsSignatures() из публичных методов класса.
