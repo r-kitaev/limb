@@ -67,8 +67,8 @@
 ## Валидация данных в классе lmbController
 Класс **lmbController** по-умолчанию содержит у себя 2 атрибута:
 
-**$validator** — пустой валидатор, объект класса lmbValidator
-**$error_list** — список ошибок, объект класса lmbErrorList
+* **$validator** — пустой валидатор, объект класса lmbValidator
+* **$error_list** — список ошибок, объект класса lmbErrorList
 
 Для передачи ошибок валидации в форму обычно используется метод **useForm($form_id)**, но можно написать и $this→view→setFormErrorList($this→error_list).
 
