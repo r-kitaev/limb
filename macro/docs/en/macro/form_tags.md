@@ -3,10 +3,10 @@
 
 Here is the list of the most commonly used {{macro}} tags that can be helpful while dealing with forms:
 
-Tag {{form}} — an analog of regular html <form> tag . Acts as a data container for child tags, holds initial or posted data as well as server-side validation errors.
-Tag {{form:errors}} — used to extract validation errors from parent {{form}} tag into a local variable that can be used in {{list}} tag to render validation errors.
-Tag {{input}} — an analog of regular html <input> tag. The functionality of {{input}} tag depends on its «type» attribute.
-Tag {{select}} — an analog of regular html <select> tag. Renders options list and marks selected options. The tag supports both single and multiple selections.
+* Tag {{form}} — an analog of regular html <form> tag . Acts as a data container for child tags, holds initial or posted data as well as server-side validation errors.
+* Tag {{form:errors}} — used to extract validation errors from parent {{form}} tag into a local variable that can be used in {{list}} tag to render validation errors.
+* Tag {{input}} — an analog of regular html <input> tag. The functionality of {{input}} tag depends on its «type» attribute.
+* Tag {{select}} — an analog of regular html <select> tag. Renders options list and marks selected options. The tag supports both single and multiple selections.
 
 ## How to use {{macro}} form tags
 Let's consider a small example in order to demonstrate the following features:
