@@ -4,7 +4,7 @@
 Tags commonly have a closing tag (e.g **list** or **wrap**), but there also tags that don't have a closing tag (e.g **slot**).
 
 ## Tags annotations
-Tags can be found in *.tag.php files in limb/macro/src/tags and in /src/macro folders of your packages. In the header of each tag file there are **annotations** that specify some meta {{macro}} information(e.g tag name, restrictions applied, etc).
+Tags can be found in `*.tag.php` files in limb/macro/src/tags and in /src/macro folders of your packages. In the header of each tag file there are **annotations** that specify some meta {{macro}} information (e.g tag name, restrictions applied, etc).
 
 Here is the complete list of supported tags annotations:
 
