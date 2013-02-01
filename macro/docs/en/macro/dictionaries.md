@@ -23,7 +23,8 @@ macro processes only the certain kind of files:
 
 As a rule, dictionaries are filled once only and then cached. Dictionaries cache files can be found in **var/compiled** folder of your application. If you create a new macro tag, just remove dictionaries cache files and macro will find your new tag on next template compilation.
 
-## In the head of each macro tag or filter file there is an **annotation block** that hold some essential meta information, like tag or filter name or aliases, required attributes, etc. Let's take a look at empty tag file (limb/macro/src/tags/list/list_empty.tag.php):
+## Annotations
+In the head of each macro tag or filter file there is an **annotation block** that hold some essential meta information, like tag or filter name or aliases, required attributes, etc. Let's take a look at empty tag file (limb/macro/src/tags/list/list_empty.tag.php):
 
     /**
      * Empty List tag for a list which failed to have any contents
