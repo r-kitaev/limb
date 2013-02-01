@@ -4,8 +4,8 @@ macro is a PHP compiling template engine, which basically means that macro creat
 
 In other words, macro processes templates in two stages:
 
-* a compiling stage (**compile time**)
-* an execution stage (**run time**)
+* a compiling stage ( **compile time** )
+* an execution stage ( **run time** )
 
 Since compilation is rather complex and CPU intensive job for the template engine you can switch off template re-compilation(thus, enabling caching) by changing settings in /settings/**macro.conf.php** file (if you use macro with WEB_APP package) or by passing proper **lmbMacroConfig** params (see an example below). Template re-compilation is usually «off» on the production server and «on» on devbox.
 
