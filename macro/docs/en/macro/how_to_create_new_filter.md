@@ -22,7 +22,7 @@ In the head of any filter class file there is an annotation section, for example
 
 The following annotations currently can be used for filters:
 
-* filter — main filter name..
+* filter — main filter name.
 * aliases — other filter names. Several aliases separated with commas.
 
 ## Creating a filter based on lmbMacroFunctionBasedFilter
