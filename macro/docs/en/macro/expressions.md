@@ -1,6 +1,7 @@
 # Expressions. How to render variable values in templates
 ## Expressions syntax
 **Expressions** — are special entities of macro template that have two main functions:
+
 1. **to render variables** (in such cases expressions are called *output expressions*):
   * {$percentage} — renders a variable from local data scope. Same as <?php echo $percentage; ?>
   * {$#percentage} — renders a variable from global (class) data scope ( renders attribute of the class). The same as <?php echo $this→percantage; ?>
@@ -12,9 +13,9 @@ You can also apply one or several filters (other name is «formatters») to modi
 
 Expression has the following syntax: {$Expression[|filter1|filterN]}
 
-* {$…} - sign of expression.
-* Expression - variable name or dotted path.
-* filter1, filterN - applied filters. Filters are separated with vertical line.
+* {$…} — sign of expression.
+* Expression — variable name or dotted path.
+* filter1, filterN — applied filters. Filters are separated with vertical line.
 
 [See more about filters](./filters_intro.md).
 
