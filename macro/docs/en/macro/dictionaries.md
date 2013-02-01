@@ -46,4 +46,4 @@ In the head of each macro tag or filter file there is an **annotation block** th
 * **@parent_tag_class** — class name of a tag that must be a parent for the tag.
 * **@forbig_end_tag** — tells that the tag does not required a closing tag.
 
-The complete list of annotations for tags and filters see at How to create your own tags and How to create your own filters.
+The complete list of annotations for tags and filters see at [How to create your own tags](./how_to_create_new_tag.md) and [How to create your own filters](./how_to_create_new_filter.md).
