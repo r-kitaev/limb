@@ -88,13 +88,13 @@
 
 Примеры возможных шаблонов для vim snippetsemu плагина:
 
-        let st = g:snip_start_tag
-        let et = g:snip_end_tag
-        let cd = g:snip_elem_delim
+    let st = g:snip_start_tag
+    let et = g:snip_end_tag
+    let cd = g:snip_elem_delim
 
-        exec "Snippet lic /*<CR> * Limb PHP Framework<CR><CR>@link http://limb-project.com<CR>@copyright  Copyright &copy; 2004-2007 BIT(http://bit-creative.com)<CR>@license    LGPL http://www.gnu.org/copyleft/lesser.html<CR>/<CR>".st.et
-        exec "Snippet pak /**<CR> * @package package_name<CR>@version $Id$<CR>/<CR>".st.et
-        exec "Snippet lpak /*<CR> * Limb PHP Framework<CR><CR>@link http://limb-project.com<CR>@copyright  Copyright &copy; 2004-2007 BIT(http://bit-creative.com)<CR>@license    LGPL http://www.gnu.org/copyleft/lesser.html<CR>/<CR><CR>/**<CR>@package package_name<CR>@version $Id$<CR>/<CR>".st.et
+    exec "Snippet lic /*<CR> * Limb PHP Framework<CR><CR>@link http://limb-project.com<CR>@copyright  Copyright &copy; 2004-2007 BIT(http://bit-creative.com)<CR>@license    LGPL http://www.gnu.org/copyleft/lesser.html<CR>/<CR>".st.et
+    exec "Snippet pak /**<CR> * @package package_name<CR>@version $Id$<CR>/<CR>".st.et
+    exec "Snippet lpak /*<CR> * Limb PHP Framework<CR><CR>@link http://limb-project.com<CR>@copyright  Copyright &copy; 2004-2007 BIT(http://bit-creative.com)<CR>@license    LGPL http://www.gnu.org/copyleft/lesser.html<CR>/<CR><CR>/**<CR>@package package_name<CR>@version $Id$<CR>/<CR>".st.et
 
 ## Расположение кода в файловой системе
 
