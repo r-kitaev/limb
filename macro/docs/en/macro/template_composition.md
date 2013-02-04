@@ -8,7 +8,7 @@
 **{{macro}} compiles the result of any composition into one PHP script** First {{macro}} processes composition tags such as {{include}}, {{wrap}}, {{into}}, {{apply}} and only then generates PHP script of the compiled template. That's why template composition cost you almost nothing in terms of execution speed. This feature of {{macro}} makes it possible to extract any duplicating parts into separate templates and reuse them efficiently in different ways.
 
 ## Including. Tag {{include}}
-To include the contents of a template into particular point of the current template you can use tag {{include}}.
+To include the contents of a template into particular point of the current template you can use [tag {{include}}](./tags/core_tags/include_tag.md).
 
 For example:
 
@@ -26,9 +26,9 @@ Wrapping — is inserting a part of the current template into a particular place
 
 There are three tags for wrapping:
 
-* Tag {{wrap}} — tells which file should wrap the contents. Has opening and closing tags. If you need to wrap the whole content of the {{wrap}} tag into some particular wrapper template's slot then you can also specify it with into attribute.
-* Tag {{slot}} — marks a point in template where the contents of other templates can be inserted into.
-* Tag {{into}} — specifies a portion of the current template that can be inserted into a slot in the wrapping template
+* [Tag {{wrap}}](./tags/core_tags/wrap_tag.md) — tells which file should wrap the contents. Has opening and closing tags. If you need to wrap the whole content of the {{wrap}} tag into some particular wrapper template's slot then you can also specify it with into attribute.
+* [Tag {{slot}}](./tags/core_tags/slot_tag.md) — marks a point in template where the contents of other templates can be inserted into.
+* [Tag {{into}}](./tags/core_tags/into_tag.md) — specifies a portion of the current template that can be inserted into a slot in the wrapping template
 
 Let's consider a small example.
 
@@ -63,7 +63,7 @@ As result {{macro}} will produce the following output:
     </html>
 
 ### Multiple wrapping. Tag {{into}}
-Sometimes we need to insert several parts of the current template into different slots of parent template. For such cases you can use tag {{into}}. A small example is worth of thousands words.
+Sometimes we need to insert several parts of the current template into different slots of parent template. For such cases you can use [tag {{into}}](./tags/core_tags/into_tag.md). A small example is worth of thousands words.
 
 Let's suppose we have a base template **page.phtml**:
 
@@ -166,8 +166,8 @@ As you can see, wrapping combinations can be of any complexity, be careful not t
 ## Reusing
 There are situations when you need a portion of template to be rendered twice on the same page with different sets of data. For example, at a catalog page you need to print featured products, recently added products and first page of total list of products. Off course, you can use {{include}} tag but there is an alternative more simple way.
 
-* Tag {{template}} — limits a portion of template that can be reused somewhere else. It's a kind of template inside template.
-* Tag {{apply}} — applies specified {{template}} tag
+* [Tag {{template}}](./tags/core_tags/template_tag.md) — limits a portion of template that can be reused somewhere else. It's a kind of template inside template.
+* [Tag {{apply}}](./tags/core_tags/apply_tag.md) — applies specified {{template}} tag
 
 Here is an example:
 
