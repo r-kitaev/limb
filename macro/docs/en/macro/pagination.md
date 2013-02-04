@@ -11,7 +11,7 @@ Standard pagination has two tasks:
 * limit paginated list to display only a certain number of items that is corresponding to selected(or current) page of a pager.
 
 ## Displaying a pager
-To display a pager you can use {{macro}} tag {{pager}}.
+To display a pager you can use {{macro}} [tag {{pager}}](./tags/pager_tags/pager_tag.md).
 
 Here is an example:
 
@@ -33,15 +33,15 @@ Here is an example:
     Total items: <b>{$total_items}</b>
     {{/pager}}
 
-The main pager tag is tag {{pager}} that limits pager. **items** attribute of {{pager}} tag sets maximum number of items that can be displayed on a single page. **total_items** attribute allows to set total number of items in the paginated list. {{pager}} fetches current page number from predefined PHP $_GET variable automatically.
+The main pager tag is [tag {{pager}}](./tags/pager_tags/pager_tag.md) that limits pager. **items** attribute of {{pager}} tag sets maximum number of items that can be displayed on a single page. **total_items** attribute allows to set total number of items in the paginated list. {{pager}} fetches current page number from predefined PHP $_GET variable automatically.
 
-Tag {{pager:list}} renders links to pages including current page.
+[Tag {{pager:list}}](./tags/pager_tags/pager_list_tag.md) renders links to pages including current page.
 
 Other tags used in the example above are:
 
-* Tags {{pager:prev}}, {{pager:first}}, {{pager:next}}, {{pager:last}} — outputs links to previous, first, next and last pages of pager.
-* Tag {{pager:current}} — outputs link to or just a number of current page,
-* Tag {{pager:number}} — outputs link to some particular pager page.
+* [Tags {{pager:prev}}, {{pager:first}}, {{pager:next}}, {{pager:last}}](./tags/pager_tags/pager_frontier_tag.md) — outputs links to previous, first, next and last pages of pager.
+* [Tag {{pager:current}}](./tags/pager_tags/pager_current_tag.md) — outputs link to or just a number of current page,
+* [Tag {{pager:number}}](./tags/pager_tags/pager_number_tag.md) — outputs link to some particular pager page.
 
 Each tag creates a local available variable **$href** that contains an URL of corresponding page. $href value has the following form: CURRENT_URI[?|&]pager_id_pager=$page_number. Tag {{pager:number}} and {{pager:current}} also generate and fill **$number** variable with corresponding page number.
 
@@ -52,7 +52,7 @@ There are also several variables available inside {{pager}} tag:
 * **{$begin_item_number}** — number of item that is starting current page,
 * **{$end_item_number}** — number of item that is finishing current page.
 
-It's a common practice to create one or more pagers and include them close by lists using tag {{include}}.
+It's a common practice to create one or more pagers and include them close by lists using [tag {{include}}](./tags/core_tags/include_tag.md).
 
 ## Limiting paginated lists
 ### Limiting paginated lists in non Limb3 based applications
@@ -68,7 +68,7 @@ Here is list of method you may need:
 * **getCurrentPageBeginItem()** — returns a number of first item to be displayed on the current page (you need to extract 1 from this value for positive values since this value is not zero based).
 
 ### Limiting paginated lists in Limb3 based applications
-There is also tag {{paginate}} that can greatly simplify limitation of paginated list. {{paginate}} tag has only one condition: paginated list should be an object that supports **lmbCollectionInterface** interface (see Limb3 CORE package).
+There is also [tag {{paginate}}](./tags/pager_tags/paginate_tag.md) that can greatly simplify limitation of paginated list. {{paginate}} tag has only one condition: paginated list should be an object that supports **lmbCollectionInterface** interface (see Limb3 CORE package).
 
 Let's consider the following {{macro}} template:
 
@@ -101,10 +101,10 @@ If you have a really long list with too many pages in pager to display there are
 * Use ellipses (or gaps) — in this case only certain number of pages in pager will be displayed: some at the beginning, some in the middle and some at the end of pager. Pager with ellipses looks approximately like this: 1-2-3…7-8-9-10-11…17-18-19
 * Use sections (or blocks of pages) — is this case pager will display only a small portion of pages (current section) and other blocks (section) will be collapsed. Pager with sections looks approximately like this: [1-5]6-7-8-9-10[11-15][16-19].
 
-See tag {{pager}} description.
+See [tag {{pager}}](./tags/pager_tags/pager_tag.md) description.
 
 ### Ellipses
-Tag {{pager:elipses}} is used to render ellipses. You may also need a couple of extra attributes for {{pager}} tags: * **pages_in_middle** * **pages_in_sides**.
+[Tag {{pager:elipses}}](./tags/pager_tags/pager_elipses_tag.md) is used to render ellipses. You may also need a couple of extra attributes for {{pager}} tags: * **pages_in_middle** * **pages_in_sides**.
 
 For example:
 
@@ -124,7 +124,7 @@ Will produce:
     1-2-3...6-7-8-9-10...15-16-17
 
 ### Sections
-Tag {{pager:section}} is used to render blocks of pages. Also **pages_per_section** attribute of {{pager}} tag is used.
+[Tag {{pager:section}}](./tags/pager_tags/pager_section_tag.md) is used to render blocks of pages. Also **pages_per_section** attribute of {{pager}} tag is used.
 
 Example:
 
@@ -147,4 +147,4 @@ The example above will produce the following pager:
 
 ## More examples
 
-* See more examples at tag {{pager}} tag.
+* See more examples at [tag {{pager}}](./tags/pager_tags/pager_tag.md).
