@@ -21,7 +21,7 @@
     INSERT INTO `news` VALUES (5,'Controller is finished','Controller is ready now!','The most difficult part was to describe controller!','2006-08-17');
     INSERT INTO `news` VALUES (6,'Basic tutorial is finished and ready to be published','All pages are ready as well as php-code. Now it\'s time to rock\'n\'roll!','','2006-08-18');
 
-Данный sql-код можно найти в файле examples/crud/init/db.mysql. (для SQLite соответственно - examples/crud/init/db.sqlite)
+Данный sql-код можно найти в файле examples/crud/init/db.mysql. (для SQLite соответственно — examples/crud/init/db.sqlite)
 
 ## Создание класса для работы с таблицей
 Создайте папку src/model в приложении и поместите туда файл News.class.php со следующим содержимым:
