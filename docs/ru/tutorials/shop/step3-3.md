@@ -161,7 +161,7 @@
 
 Вот как должна выглядеть страница /user/edit:
 
-![Alt-login_success](http://wiki.limb-project.com/2011.1/lib/exe/fetch.php?cache=&media=limb3:ru:tutorials:shop:login_success.png)
+![Alt-profile](http://wiki.limb-project.com/2011.1/lib/exe/fetch.php?cache=&media=limb3:ru:tutorials:shop:profile.png)
 
 ## Различные способы передачи данных в MACRO-шаблон
 Для отображения информации по текущему пользователю необходимо передать объект пользователя в шаблон. Это можно сделать несколькими способами:
