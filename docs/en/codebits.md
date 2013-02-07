@@ -42,9 +42,9 @@ The main features of limb_unit are:
 * Browse online
 * Shows how to create a simple Limb3 based project from the scratch.
 * Demonstrates how to create, read, update and delete table records using WEB_APP package in Rails like way.
-* Introduces powerful [MACRO](../../macro/docs/ru/macro.md) template engine and shows how to use the most useful template tags.
+* Introduces powerful [MACRO](../../macro/docs/en/macro.md) template engine and shows how to use the most useful template tags.
 * [Browse source in repository](http://code.google.com/p/limb3/source/browse?repo=code-bits#hg/crud)
-* Checkout from Mercurial repository(run in shell). Directory crud:
+* Checkout from Mercurial repository(run in shell). Directory **crud**:
 
     hg clone https://code-bits.limb3.googlecode.com/hg/ limb3-code-bits
 
@@ -56,7 +56,7 @@ The main features of limb_unit are:
 Shows many architectural aspects of Limb3: filter chain, toolkit, session handling, controllers, commands, etc.
 
 * Demonstrates how ACTIVE_RECORD handles different relations between objects(one-to-many, one-to-one, many-to-many).
-* Integration of several main Limb3 packages like [WEB_APP](../../web_app/docs/ru/web_app.md), [ACTIVE_RECORD](../../active_record/docs/ru/active_record.md) and [MACRO](../../macro/docs/ru/macro.md).
+* Integration of several main Limb3 packages like [WEB_APP](../../web_app/docs/en/web_app.md), [ACTIVE_RECORD](../../active_record/docs/en/active_record.md) and [MACRO](../../macro/docs/en/macro.md).
 * [Browse source in repository](http://code.google.com/p/limb3/source/browse/?repo=code-bits#hg/tutorial-shop)
 * Checkout from Mercurial repository(run in shell). Directory **tutorial-shop**:
 
@@ -65,7 +65,7 @@ Shows many architectural aspects of Limb3: filter chain, toolkit, session handli
 ### {{macro}} template engine usage examples
 
 * Browse online
-* Runnable examples for mostly all core [MACRO](../../macro/docs/ru/macro.md) tags.
+* Runnable examples for mostly all core [MACRO](../../macro/docs/en/macro.md) tags.
 * Templates source code, PHP script code and result page are available for every example.
 * [Browse source in repository](http://code.google.com/p/limb3/source/browse/?repo=code-bits#hg/macro)
 * Checkout from repository(run in shell). Directory macro:
