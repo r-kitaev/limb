@@ -201,7 +201,7 @@ Now let's add some code to news/create.html template to display validation error
     <label for="title">Title</label> : <input name='title' type='text' size='60' title='Title'/><br/>
     [...]
 
-`<form:errors>` tag passes list of validation errors to tag marked with **target** attribute. Validation error messages will be rendered by <list:list> and `<list:item>` tags which we described before.
+`<form:errors>` tag passes list of validation errors to tag marked with **target** attribute. Validation error messages will be rendered by `<list:list>` and `<list:item>` tags which we described before.
 
 Validation errors are passed to the template automatically since we wired object of News class with form runtime component in NewsController :: doCreate() method.
 
