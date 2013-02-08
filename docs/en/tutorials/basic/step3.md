@@ -35,7 +35,7 @@ Let's add new template create.html into crud/template/news/ folder with the foll
 
 It looks like a regular html-page but there are some small gotchas you should be aware of:
 
-* **<form>** tag has **runat='server'** attribute, that tells template engine that it's not a regular html-tag but a tag with so called *runtime component* (or active component) attached. Runtime component is an object that is created while template is executed and that has some specific behavior. Tags with runtime components usually have some unique identifier specified by **id** attribute.
+* `<form>` tag has **runat='server'** attribute, that tells template engine that it's not a regular html-tag but a tag with so called *runtime component* (or active component) attached. Runtime component is an object that is created while template is executed and that has some specific behavior. Tags with runtime components usually have some unique identifier specified by **id** attribute.
 * Please note that form elements have identifiers matching the names of the fields of table «news»
 
 ### Changes in NewsController class
@@ -201,7 +201,7 @@ Now let's add some code to news/create.html template to display validation error
     <label for="title">Title</label> : <input name='title' type='text' size='60' title='Title'/><br/>
     [...]
 
-**<form:errors>** tag passes list of validation errors to tag marked with **target** attribute. Validation error messages will be rendered by <list:list> and <list:item> tags which we described before.
+`<form:errors>` tag passes list of validation errors to tag marked with **target** attribute. Validation error messages will be rendered by <list:list> and `<list:item>` tags which we described before.
 
 Validation errors are passed to the template automatically since we wired object of News class with form runtime component in NewsController :: doCreate() method.
 
@@ -337,7 +337,7 @@ It's time to change news/display.html in order to display links to edit action p
 
 Here we used `<route_url>` tag, which is essentially similar to `<a>` tag, but the former makes up the href attribute based on the parameters from **params** attribute. In fact, `<route_url>` does request dispatching in reverse order i.e. it forms something like /news/edit/5 from params ('action' ⇒ 'edit', 'id' ⇒ 5). All stuff about request dispatching and so called «routes» is beyond the scope of this tutorial, but if you are interested what rules are used to parse request string you may have a look at limb/web_app/settings/routes.conf.php file (or crud/settings/routes.conf.php depending on how you started this tutorial).
 
-Let's explain how <route_url> tag works:
+Let's explain how `<route_url>` tag works:
 
     <route_url params="action:create">Create news</route_url>
 
