@@ -75,7 +75,7 @@ Much better! But we can do more with WACT and make our templates even more compa
 Note: WACT compiles templates as a whole. That means what `<core:include>` usage doesn't slow template rendering unlike Smarty.
 
 ## Extracting core template page.html
-The template code in news/create.html and news/edit.html before starting `<form>` and after closing `</form>` tags are duplicating too. With other template engine we would extract something like header.html and footer.html and would use <core:include> for them. eader/footer way has a big disadvantage that it breaks the template into two components that complicate common understanding of the template as a whole. But WACT has better means.
+The template code in news/create.html and news/edit.html before starting `<form>` and after closing `</form>` tags are duplicating too. With other template engine we would extract something like header.html and footer.html and would use `<core:include>` for them. eader/footer way has a big disadvantage that it breaks the template into two components that complicate common understanding of the template as a whole. But WACT has better means.
 
 Let's use [<core:wrap>](../../../../macro/docs/en/macro/tags/core_tags/wrap_tag.md) tag that allows to insert a part of the current template into some special placeholder in some other template (core or parent template). This process we call **wrapping**.
 
