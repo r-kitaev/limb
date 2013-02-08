@@ -113,3 +113,55 @@ Now we will display the newsline. To do so we have to modify our ~crud/template/
     </list:LIST>
     </body>
     </html>
+
+Limb3 uses WACT template engine by default.
+
+The main elements of WACT templates are tags and output expressions. Let's briefly explain what elements of the template engine were used here:
+
+* `<active_record:fetch>` tag is used to fetch data from class specified by **using** attribute (this is our News class) and to transfer fetched data to the component named by **target** attribute. In our case, `<list:list>` with id news will get all the fetched data.
+* `<list:LIST>` uses to output lists and tables. The part that lies within `<list:ITEM>` tag is repeated for each record.
+* With several output expression like {$date}, {$title}, {$annotation} we display values of each news.
+
+As a result, you should see at http://%tutorial_address%/news something like this:
+
+![Alt-simple_list](http://wiki.limb-project.com/2011.1/lib/exe/fetch.php?cache=&media=limb3:ru:tutorials:basic:simple_list.png)
+
+WACT also supports raw php-blocks in templates so we can skip `<active_record:fetch>` usage and retrieve data with php:
+
+    <html>
+    [...]
+    <h1>Newsline.</h1>
+ 
+    <?php 
+       lmb_require('src/model/News.class.php');
+       $news = lmbActiveRecord :: find('News');
+    ?>
+ 
+    <list:LIST from="$news">
+      [...]
+    </list:LIST>
+    </body>
+    </html>
+
+WACT — is a powerful, extensible and fast template engine. We recommend reading documentation for WACT after completing this tutorial.
+
+Here is a short list of pages that are «a must read» for any WACT user:
+
+* "Introduction to WACT template engine" — about key WACT elements.
+* "The compilation and execution of WACT template, runtime components and hierarchy of datasources in template" — describes how WACT ticks. Understanding of the internal structure of the engine is the key to its effective usage.
+
+However it's ok to skip WACT readings and continue our tutorial.
+
+## How news/display.html was displayed?
+lmbController (parent class of our NewsController) can do a bit of «magic» by default. When we type http://%tutorial_address%/news in browser, Limb3 based application automatically looks for NewsController in src/controller/ folder and tries to activate controller with default action.
+
+Default action is usually «display». If we typed http://%tutorial_address%/news/create then Limb3 would try to activate controller with «create» action.
+
+When lmbController is activated with some action it tries to execute its class method called as doActionName()(e.g. doDisplay() or doCreate()) and performs it if one exists.
+
+If no such method exists then lmbController just tries to find and render an appropriate template in templates folder of application named according to controller and action name. For example, for http://%tutorial_address%/news/ request template should be news/display.html, for http://%tutorial_address%/news/create — news/create.html. If template is not found or no such controller method exists 404 error will be displayed.
+
+All this «magic» can remind you Ruby-on-Rails framework. Limb3 is not an exception, we really borrowed some ideas from Rails.
+
+## What's next?
+[Step 3. Adding forms to allow creating and editing news. Data validation. News removal.](./step3.md)
