@@ -335,13 +335,13 @@ It's time to change news/display.html in order to display links to edit action p
     </body>
     </html>
 
-Here we used <route_url> tag, which is essentially similar to <a> tag, but the former makes up the href attribute based on the parameters from **params** attribute. In fact, <route_url> does request dispatching in reverse order i.e. it forms something like /news/edit/5 from params ('action' ⇒ 'edit', 'id' ⇒ 5). All stuff about request dispatching and so called «routes» is beyond the scope of this tutorial, but if you are interested what rules are used to parse request string you may have a look at limb/web_app/settings/routes.conf.php file (or crud/settings/routes.conf.php depending on how you started this tutorial).
+Here we used `<route_url>` tag, which is essentially similar to `<a>` tag, but the former makes up the href attribute based on the parameters from **params** attribute. In fact, `<route_url>` does request dispatching in reverse order i.e. it forms something like /news/edit/5 from params ('action' ⇒ 'edit', 'id' ⇒ 5). All stuff about request dispatching and so called «routes» is beyond the scope of this tutorial, but if you are interested what rules are used to parse request string you may have a look at limb/web_app/settings/routes.conf.php file (or crud/settings/routes.conf.php depending on how you started this tutorial).
 
 Let's explain how <route_url> tag works:
 
     <route_url params="action:create">Create news</route_url>
 
-This line will output something like <a href=»/news/create»>Create news</a>. News controller will be used by default since we are on the news controller page. The same happens for edit and delete links actions of news controller. Parameters in «params» attribute of <route_url> tag are separated with commas. Accordingly <route_url params=«action:edit,id:{$id}»>Edit</route_url> will generate <a href=»/news/edit/4»>Edit</a>
+This line will output something like `<a href=»/news/create»>Create news</a>`. News controller will be used by default since we are on the news controller page. The same happens for edit and delete links actions of news controller. Parameters in «params» attribute of `<route_url>` tag are separated with commas. Accordingly `<route_url params=«action:edit,id:{$id}»>Edit</route_url>` will generate `<a href=»/news/edit/4»>Edit</a>`
 
 If you did everything right, you would be able to create and edit news (delete action is not implemented yet).
 
