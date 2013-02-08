@@ -110,7 +110,7 @@ If so let's go further.
     $app->process();
     ?>
 
-As a matter of fact Limb3 based application is a single class, like lmbWebApplicaion. Don't worry about lmbWebApplication structure - we go into architectural details on Limb3 in the next tutorial (SHOP example). Our goal for this tutorial is just to show the very basics of Limb3 usage.
+As a matter of fact Limb3 based application is a single class, like lmbWebApplicaion. Don't worry about lmbWebApplication structure — we go into architectural details on Limb3 in the next tutorial (SHOP example). Our goal for this tutorial is just to show the very basics of Limb3 usage.
 
 ## What's next?
 [Step 2. Displaying newsline using WACT-template](./step2.md)
