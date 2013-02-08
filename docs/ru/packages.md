@@ -14,7 +14,7 @@
 [CONSTRUCTOR](../../constructor/docs/ru/constructor.md) |	| Генератор кода	
 [CORE](../../core/docs/ru/core.md) | | Пакет, отвечающий за поддержку подключения других пакетов. Содержит базовые классы для работы с различными контейнерами данных и коллекциями. Практически все остальные пакеты зависят от него.	
 [DATETIME](../../datetime/docs/ru/datetime.md) | CORE	| Пакет для работы с временем, датой, временными периодами и проч.	
-[DBAL](dbal/docs/ru/dbal.md) (database abstraction layer)	| CORE, TOOLKIT, NET | Пакет, абстрагирующий работу с БД	
+[DBAL](../../dbal/docs/ru/dbal.md) (database abstraction layer)	| CORE, TOOLKIT, NET | Пакет, абстрагирующий работу с БД	
 [FS](../../fs/docs/ru/fs.md) | CORE	| Различные срества для работы с файловой системой: базовые файловые операции, нахождения файлов по алиасам и др.	
 [FILTER_CHAIN](../../filter_chain/docs/ru/filter_chain.md) | CORE	| Имплементация паттерна Intercepring Filter.	
 [I18N](../../i18n/docs/ru/i18n.md) | CORE, TOOLKIT, VALIDATION, CONFIG, UTIL, CLI, DATETIME	| Пакет, упрощающий процесс интернационализации приложений	
