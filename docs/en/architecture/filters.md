@@ -71,5 +71,5 @@ Name | Purpose
 UOWFilter | Starts and finishes an ORM transaction
 lmbSessionStartupFilter	| Starts a session
 [lmbRequestDispatchingFilter](./lmb_request_dispatching_filter.md) | Determines requested lmbService and Action using [lmbRequestDispatcher](./lmb_request_dispatcher.md)
-[lmbViewRenderingFilter](./ | Renders View that could be set somethere in [lmbCommand](./lmb_command.md)
+[lmbViewRenderingFilter](./lmb_view_rendering_filter.md) | Renders View that could be set somethere in [lmbCommand](./lmb_command.md)
 lmbUncaughtExceptionHandlingFilter | Allows to process system errors in more «user-friendly» way
