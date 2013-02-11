@@ -1,6 +1,6 @@
 # Limb3 packages
 ## Basic conceptions
-The conception of package in Limb3 is very primitive. Packaging is achieved through work of special FileResolvers that try to find files in different folders. See FileResolvers documentation page for more info.
+The conception of package in Limb3 is very primitive. Packaging is achieved through work of special FileResolvers that try to find files in different folders. [See FileResolvers documentation page for more info](./file_resolvers.md).
 
 Limb3 package conception is very raw. There is no means to automate package dependency check so be carefull.
 
