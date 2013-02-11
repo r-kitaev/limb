@@ -5,7 +5,7 @@ This example shows typical DB structure of Limb3 based project. To simplify the 
 ## Required tables
 
 * **sys_uid** contains only one integer field that used to generate unique identifiers. We recomment use this identifier everythere in Limb based project. To get next identifier please use **nextUID()** method from lmbBaseToolkit() class.
-* The list of all limb-objects is stored in **sys_object** table. Every limb-object has unique identifier. [See limb objects page for more details about this].
+* The list of all limb-objects is stored in **sys_object** table. Every limb-object has unique identifier. [See limb objects page for more details about this](./objects.md).
 * **sys_class** table contains all class names of all stored limb-objects. We can get information what kind of object is stored at particular oid in sys_object table.
 
 ## Other tables on the schema
