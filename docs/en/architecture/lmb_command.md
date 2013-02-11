@@ -7,7 +7,7 @@ Limb Commands implement a very simple interface which consists of the only **per
 
 Class name | Desription
 -----------|-----------
-lmbBaseCommand | Holdes cached Request, Response and lmbToolkit objects and allows to perform other commands via performCommand() method.
+lmbBaseCommand | Holdes cached Request, Response and [lmbToolkit](./lmb_toolkit.md) objects and allows to perform other commands via performCommand() method.
 [lmbSetViewCommand](./lmb_set_view_command.md)	| Sets current view ([lmbSimpleView](./lmb_simple_view.md) object) into [lmbToolkit](./lmb_toolkit.md).
 [lmbObservableCommand](./lmb_observable_command.md) | Allows to register onPerform event listeners(when command is performed listeners are notified)
 [lmbPropertyOptionalCommand](./lmb_property_optional_command.md) | Is a child of lmbObservableCommand which notify listeners if a dataspace contains a specified property. It accepts dataspace and property name in constructor. This class is mostly used in multi-action forms. See [lmbFormCommand](./lmb_form_command.md) description page for a usage example.
