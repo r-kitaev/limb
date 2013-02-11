@@ -7,7 +7,7 @@ Limb is built around MVC pattern also known as Model2. On the diagram below you 
 * DBAL, DAO, ORM, DomainObjects — are the components of Model.
 
 ## View
-Limb3 uses WACT template engine with additional tags as a View component. Limb supports both Push View and Pull View methods. For example, Limb has <limb:DAO> tag that permits you to make requests to database right from a WACT template. Limb also has a number of [View](./view.md) classes that act as mediators between Controller and templates.
+Limb3 uses WACT template engine with additional tags as a View component. Limb supports both Push View and Pull View methods. For example, Limb has `<limb:DAO>` tag that permits you to make requests to database right from a WACT template. Limb also has a number of [View](./view.md) classes that act as mediators between Controller and templates.
 
 ## Controller
 [Controller](./controller.md) handles application logic. Limb3 Controller consists of the following components:
