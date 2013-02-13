@@ -9,7 +9,7 @@ Here is the list of errors that are considered to be fatal for a {{macro}} templ
 * Missing a required attribute for a tag
 * Improper nesting of {{macro}} tags. For example you can't use {{list:item}} tag outside {{list}} tag
 * Having two or more child tags of one parent tag with the same id attribute.
-* Usage of none existing file with tag {{include}} or tag {{wrap}}.
+* Usage of none existing file with [tag {{include}}](./tags/core_tags/include_tag.md) or [tag {{wrap}}](./tags/core_tags/wrap_tag.md).
 * Usage of none existing filters in expressions
 * Usage of none existing tags
 

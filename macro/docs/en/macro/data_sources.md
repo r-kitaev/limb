@@ -58,6 +58,6 @@ In the corresponding {{macro}} template $title attribute will be available as:
 * **global** — scope of the generated PHP class of template
 * **local** — scope of one method of this class.
 
-Rendering always starts with render() method of the generated PHP class. Some tags like include or apply generate their code into separate methods and thus create other local scopes. {{include}} and {{apply}} allow to pass any variables into their local scopes with any number of extra attributes (see descriptions of these tags).
+Rendering always starts with render() method of the generated PHP class. Some tags like [include](./tags/core_tags/include_tag.md) or [apply](./tags/core_tags/apply_tag.md) generate their code into separate methods and thus create other local scopes. {{include}} and {{apply}} allow to pass any variables into their local scopes with any number of extra attributes (see descriptions of these tags).
 
 See also [output expressions](./expressions.md).

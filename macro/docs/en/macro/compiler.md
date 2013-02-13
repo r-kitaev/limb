@@ -19,7 +19,7 @@ The nodes of the compile time tree are objects of lmbMacroNode class or his desc
 
 When you call lmbMacroTemplate :: render($var = array()) {{macro}} first searches for the compiled version of the template. If it exists and **force compile** setting is OFF then {{macro}} runs render() method of the generated PHP class described above without template recompilation. This speeds up things dramatically. **_init()** method is invoked before render() executes the rest of the generated code. Think of **_init()** method as of a kind of constructor for the compiled {{macro}} template. For example, _init() is used by form and {{pager}} tags.
 
-Let's get into some dirty details of {{macro}} PHP code generation process using tag {{paginate}} as an example.
+Let's get into some dirty details of {{macro}} PHP code generation process using [tag {{paginate}}](./tags/pager_tags/paginate_tag.md) as an example.
 
 ## Compilation process in details
 ### {{macro}} template example
