@@ -11,7 +11,7 @@
 ## Limb3 main packages
 
 * [CORE package](../core/docs/en)
-* [ACTIVE_RECORD package]
+* [ACTIVE_RECORD package](../active_record/docs/en/active_record.md)
 * [MACRO — very flexible and fast template engine](../macro/docs/en/macro.md)
   * [MACRO tags dictionary](../macro/docs/en/macro/tags_intro.md)
   * [MACRO filters dictionary](../macro/docs/en/macro/filters_intro.md)
