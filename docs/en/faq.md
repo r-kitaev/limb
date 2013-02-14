@@ -78,7 +78,7 @@ We simply think that naming convention when a class name contains the path to it
 
 * Awkward class name with explicit dependency on the file system.
 * Renaming one class (e.g. its name's middle part) can result in cascade renaming of many files and classes.
-* We are not adherent of such long names e.g. Zend_Search_Lucene_Search_Weight_Boolean (**disclaimer**: we have nothing against ZendFramework, furthermore we believe its search module is one of the best existing for PHP).
+* We are not adherent of such long names e.g. Zend_Search_Lucene_Search_Weight_Boolean ( **disclaimer**: we have nothing against ZendFramework, furthermore we believe its search module is one of the best existing for PHP).
 
 ## Why do you use some strange lmb_require function instead of require_once?
 Limb3 uses a special version of require_once called lmb_require from the [CORE](../../core/docs/en/core.md) package, which takes into account Limb3 «one class = one file» convention and allows to load class code lazily through _autoload. Using lmb_require in your code isn't necessary, this function is transparent and similar to require_once, include_once PHP analogues. However, in case you're interested in lazy code loading, you might want to have better look at this function. By the way, it also supports glob modificators, e.g.:
