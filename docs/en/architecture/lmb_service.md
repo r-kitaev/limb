@@ -13,7 +13,7 @@ Services are the first candicates for customization in every Limb-based applicat
                            arrray('default_action' => 'display',
                                   'filter' => 'simple'));
 
-You can create lmbService object using [lmbToolkit](./lmb_toolkit.md) :: **createService($name)** method. createService($name) is supported by lmbBaseTools class.
+You can create lmbService object using [lmbToolkit](./lmb_toolkit.md) :: **createService($name)** method. createService($name) is supported by [lmbBaseTools](../../../toolkit/docs/en/toolkit/lmb_base_tools.md) class.
 
 ## How services are defined?
 **lmbBaseTools :: createService($name)** delegates lmbService creation to a service factory object. lmbServiceFactory uses ini-files to load lmbService information. lmbService ini-files can be found in /settings/services/ folder of Limb-based application.
