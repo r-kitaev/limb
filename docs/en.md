@@ -10,7 +10,7 @@
 
 ## Limb3 main packages
 
-* [CORE package](../
+* [CORE package](../core/docs/en)
 * [ACTIVE_RECORD package]
 * [MACRO — very flexible and fast template engine](../macro/docs/en/macro.md)
   * [MACRO tags dictionary](../macro/docs/en/macro/tags_intro.md)
