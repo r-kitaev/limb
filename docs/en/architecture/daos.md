@@ -18,6 +18,6 @@ DAO class file will be automatically found with [lmbFileSchema](./lmb_file_schem
 
 Class name | Description
 -----------|------------
-[TableGatewayDAO](./architecture/table_gateway_dao.md) | Allows to make requests to a db table with [lmbTableGateway](../../../dbal/docs/en/dbal/lmb_table_gateway.md)
-[QueryBasedDAO](./architecture/query_based_dao.md) | Allows to make complex select quesries. QueryBasedDAO is a decorator for [lmbSelectQuery](./lmb_select_query.md).
-[ServicesListDAO](./architecture/services_list_dao.md)  | Returns a list of Services can be used with Limb-based project.
+[TableGatewayDAO](./table_gateway_dao.md) | Allows to make requests to a db table with [lmbTableGateway](../../../dbal/docs/en/dbal/lmb_table_gateway.md)
+[QueryBasedDAO](./query_based_dao.md) | Allows to make complex select quesries. QueryBasedDAO is a decorator for [lmbSelectQuery](./lmb_select_query.md).
+[ServicesListDAO](./services_list_dao.md) | Returns a list of Services can be used with Limb-based project.
