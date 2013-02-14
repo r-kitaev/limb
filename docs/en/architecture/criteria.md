@@ -11,12 +11,12 @@ All criteria classes are children of lmbSQLBaseCriteria class that implements ba
 
 Class name | Description
 -----------|------------
-lmbSQLRawCriteria	| Allows to insert a condition into SQL query as is.
+[lmbSQLRawCriteria](../../../dbal/docs/en/dbal/lmbsql_raw_criteria.md) | Allows to insert a condition into SQL query as is.
 [lmbSQLFieldCriteria](../../../dbal/docs/en/dbal/lmbsql_field_criteria.md) | Allows to insert a condition on some field.
-lmbSQLTableFieldCriteria | A child class of lmbSQLFieldCriteria. Requeres explicit table name.
+[lmbSQLTableFieldCriteria](../../../dbal/docs/en/dbal/lmbsql_table_field_criteria.md) | A child class of lmbSQLFieldCriteria. Requeres explicit table name.
 [SQLFielBetweenCriteria](../../../dbal/docs/en/dbal/lmbsql_field_between_criteria.md) | Allows to insert between conditions into SQL query.
-lmbSQLFalseCriteria	| Critetia that is never passed.
-lmbSQLTrueCriteria | Criteria that is always passed.
+[lmbSQLFalseCriteria](../../../dbal/docs/en/dbal/lmbsql_false_criteria.md) | Critetia that is never passed.
+[lmbSQLTrueCriteria](../../../dbal/docs/en/dbal/lmbsql_true_criteria.md) | Criteria that is always passed.
 
 ### Criteria usage
 Criteria are commonly used with [lmbSelectQuery](../../../dbal/docs/en/dbal/lmb_select_query.md) class to insert conditions into %where% and %having% placeholders.
