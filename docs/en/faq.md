@@ -1,4 +1,4 @@
-# # Frequently Asked Question on Limb3 (FAQ)
+# Frequently Asked Question on Limb3 (FAQ)
 ## What is Limb3?
 Limb3 — is a Web Application Framework which consists of several packages, where each package usually performs some special functions. Each package is more or less independent from others, and to solve the dependencies between them standard [PEAR](http://pear.php.net/) methods are used. You could learn more about that in the [New to LIMB section](./for_beginners.md).
 
