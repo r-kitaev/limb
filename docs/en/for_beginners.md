@@ -22,7 +22,7 @@ If you're a 'bleeding edge' fan you can grab packages from nightly builds server
 To become familiar with Limb3 it makes sense to read the following step-by-step tutorials:
 
 * [basic example](./tutorials/basic.md), where the most basic ways of WEB_APP, ACTIVE_RECORD and WACT package usage are shown.
-* example of building a simple e-shop, where the majority of common Limb3 instruments are explained.
+* [example of building a simple e-shop](./tutorials/shop.md), where the majority of common Limb3 instruments are explained.
 
 The basic example can also be found it the limb/web_app/examples/crud folder. Also there is an empty «template» project for a Limb3-based project in the same folder.
 
