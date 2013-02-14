@@ -4,8 +4,7 @@
 Название пакета | Зависимости	| Назначение
 ----------------|-------------|-----------
 [ACL](../../acl/docs/ru/acl.md) |	CORE | Пакет реализует функционал [ACL](http://ru.wikipedia.org/wiki/ACL)	
-[ACTIVE_RECORD](../../active_record/docs/ru/active_record.md) |	CORE, DBAL, VALIDATION | Реализация [паттерна ActiveRecord](http://en.wikipedia.org/wiki/Active_record_pattern). В конечном итоге планируется получить некий аналог ActiveRecord из [Ruby on Rails](http://rubyonrails.org/).	
-[CACHE] | CORE | Набор классов, предназначенных для обобщения различных техник кеширования (пока в зачаточном состоянии, пакет явно напрашивается на объединение с WEB_CACHE пакетом)	
+[ACTIVE_RECORD](../../active_record/docs/ru/active_record.md) |	CORE, DBAL, VALIDATION | Реализация [паттерна ActiveRecord](http://en.wikipedia.org/wiki/Active_record_pattern). В конечном итоге планируется получить некий аналог ActiveRecord из [Ruby on Rails](http://rubyonrails.org/).		
 [CACHE2](../../cache2/docs/ru/cache2.md) | CORE	| Набор классов, предназначенных для обобщения различных техник кеширования	
 [CALENDAR](../../calendar/docs/ru/calendar.md) | WACT (опционально) | JavaScript календарь + использующий его WACT тег	
 [CLI](https://github.com/r-kitaev/limb/tree/docs/cli) |	CORE | Различные средства, упрощающие разработку CLI интерфейса	
@@ -44,6 +43,4 @@
 
 Название пакета | Назначение
 ----------------|-----------
-[PROFILE]	|	Пакет содержит утилиты для профайлинга приложения
-[MIGRATE]	| Пакет для контроля версий Схемы Базы Данных и миграций между ними
 [ZFSEARCH](./tutorials/zend_search.md) | Интеграция Zend_Search с Limb3
