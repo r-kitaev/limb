@@ -46,7 +46,7 @@ The main features of limb_unit are:
 * [Browse source in repository](http://code.google.com/p/limb3/source/browse?repo=code-bits#hg/crud)
 * Checkout from Mercurial repository(run in shell). Directory **crud**:
 
-    hg clone https://code-bits.limb3.googlecode.com/hg/ limb3-code-bits
+        hg clone https://code-bits.limb3.googlecode.com/hg/ limb3-code-bits
 
 ### Shop example appication
 
@@ -60,7 +60,7 @@ Shows many architectural aspects of Limb3: filter chain, toolkit, session handli
 * [Browse source in repository](http://code.google.com/p/limb3/source/browse/?repo=code-bits#hg/tutorial-shop)
 * Checkout from Mercurial repository(run in shell). Directory **tutorial-shop**:
 
-    hg clone https://code-bits.limb3.googlecode.com/hg/ limb3-code-bits
+        hg clone https://code-bits.limb3.googlecode.com/hg/ limb3-code-bits
 
 ### {{macro}} template engine usage examples
 
@@ -70,7 +70,7 @@ Shows many architectural aspects of Limb3: filter chain, toolkit, session handli
 * [Browse source in repository](http://code.google.com/p/limb3/source/browse/?repo=code-bits#hg/macro)
 * Checkout from repository(run in shell). Directory macro:
 
-    hg clone https://code-bits.limb3.googlecode.com/hg/ limb3-code-bits
+        hg clone https://code-bits.limb3.googlecode.com/hg/ limb3-code-bits
 
 ### Old limb-project.com site source
 
@@ -78,4 +78,4 @@ Shows many architectural aspects of Limb3: filter chain, toolkit, session handli
 * [Browse source in repository](http://code.google.com/p/limb3/source/browse/?repo=code-bits#hg/limb-project)
 * Checkout from repository(run in shell). Directory **limb-project**:
 
-    hg clone https://code-bits.limb3.googlecode.com/hg/ limb3-code-bits
+        hg clone https://code-bits.limb3.googlecode.com/hg/ limb3-code-bits
