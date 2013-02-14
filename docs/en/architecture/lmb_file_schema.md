@@ -55,5 +55,5 @@ In this example we create caching CommandLocator that will look for files in LPK
 Class name | Description
 -----------|------------
 [lmbFileLocationsList](../../../fs/docs/en/fs/lmb_file_locations_list.md) | Allows you to create compound lmbFileLocations.
-lmbPackagesFileLocations | Returns paths to packages install for a Limb-based application. Uses lmbPackagesInfo to get information about installed packages.
-TemplateFileLocations | Returns paths where template files should be looked for. Takes into account current locale and common.ini file setting: templates_path and shared_templates_path.
+[lmbPackagesFileLocations](../../../fs/docs/en/fs/lmb_packages_file_locations.md) | Returns paths to packages install for a Limb-based application. Uses [lmbPackagesInfo]((../../../fs/docs/en/fs/lmb_packages_info.md) to get information about installed packages.
+[TemplateFileLocations](../../../fs/docs/en/fs/template_file_locations.md) | Returns paths where template files should be looked for. Takes into account current locale and common.ini file setting: templates_path and shared_templates_path.
