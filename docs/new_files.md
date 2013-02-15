@@ -51,3 +51,4 @@
 * docs/en/architecture/ **action.md**
 * docs/en/architecture/ **lmb_request_extractor.md**
 * docs/docs/en/architecture/ **file_resolvers.md**
+* также все файлы в английских ветках пакетов, кроме MACRO и DOCS
