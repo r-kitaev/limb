@@ -47,15 +47,15 @@ You can easily add, substitute, merge tools inside lmbToolkit:
 * lmbToolkit :: **merge($tools)** — merges the current set of tools with new tools. The new tools have more priority than the old one. It proved to be very useful for unit testing.
 * lmbToolkit :: **extend($tools)** — extends the current set of tools with new tools. However if the current set of tools has a method that also supported by new tools an exception is thrown.
 
-lmbBaseTools is registered in lmbToolkit by default.
+[lmbBaseTools](../../../toolkit/docs/en/toolkit/lmb_base_tools.md) is registered in lmbToolkit by default.
 
 ## Other lmbToolkit sub-system classes
 
 Class name | Description
 -----------|------------
-lmbBaseTools | Contains the most common factory methods and objects for a web based application such as Request, Response, DbConnection, etc.
-lmbStaticTools | Defines a static set of tools. Useful with unit testing.
-lmbAbstractTools | An abstract class that returns all class methods from getToolsSignatures(). It's common to inherit from this class in order to create your own tools.
-lmbMockToolsWrapper | Allows to use mock objects with lmbToolkit.
-lmbCompositeToolkitTools | Allows to compose several tools within one container.
-lmbCompositeNonItersectingToolkitTools | A child of lmbCompositeToolkitTools class. This class prevents tools from intersection.
+[lmbBaseTools](../../../toolkit/docs/en/toolkit/lmb_base_tools.md) | Contains the most common factory methods and objects for a web based application such as Request, Response, DbConnection, etc.
+[lmbStaticTools](../../../toolkit/docs/en/toolkit/lmb_static_tools.md) | Defines a static set of tools. Useful with unit testing.
+[lmbAbstractTools](../../../toolkit/docs/en/toolkit/ | An abstract class that returns all class methods from getToolsSignatures(). It's common to inherit from this class in order to create your own tools.
+[lmbMockToolsWrapper](../../../toolkit/docs/en/toolkit/lmb_mock_tools_wrapper.md) | Allows to use mock objects with lmbToolkit.
+[lmbCompositeToolkitTools](../../../toolkit/docs/en/toolkit/lmb_composite_toolkit_tools.md) | Allows to compose several tools within one container.
+[lmbCompositeNonItersectingToolkitTools](../../../toolkit/docs/en/toolkit/lmb_composite_non_itersecting_toolkit_tools.md) | A child of lmbCompositeToolkitTools class. This class prevents tools from intersection.
