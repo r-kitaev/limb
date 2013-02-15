@@ -20,7 +20,7 @@ Or more compact:
 
     $dao = lmbToolkit :: instance()->createDAO('ArticleDAO');
 
-lmbToolkit internal state can be saved and restored to simplify unit testing. When you save lmbToolkit a new fresh copy (new instance) of lmbToolkit is created and the old one is saved in [lmbRegistry](../../../docs/toolkit/docs/en/toolkit/lmb_registry.md). When you restore lmbToolkit the current instance is removed and the previous copy is become active. You can save/restore lmbToolkit multiple times.
+lmbToolkit internal state can be saved and restored to simplify unit testing. When you save lmbToolkit a new fresh copy (new instance) of lmbToolkit is created and the old one is saved in [lmbRegistry](../../../toolkit/docs/en/toolkit/lmb_registry.md). When you restore lmbToolkit the current instance is removed and the previous copy is become active. You can save/restore lmbToolkit multiple times.
 
     $toolkit = lmbToolkit :: save();
  
