@@ -55,7 +55,7 @@ Class name | Description
 -----------|------------
 [lmbBaseTools](../../../toolkit/docs/en/toolkit/lmb_base_tools.md) | Contains the most common factory methods and objects for a web based application such as Request, Response, DbConnection, etc.
 [lmbStaticTools](../../../toolkit/docs/en/toolkit/lmb_static_tools.md) | Defines a static set of tools. Useful with unit testing.
-[lmbAbstractTools](../../../toolkit/docs/en/toolkit/ | An abstract class that returns all class methods from getToolsSignatures(). It's common to inherit from this class in order to create your own tools.
+[lmbAbstractTools](../../../toolkit/docs/en/toolkit/lmb_abstract_tools.md) | An abstract class that returns all class methods from getToolsSignatures(). It's common to inherit from this class in order to create your own tools.
 [lmbMockToolsWrapper](../../../toolkit/docs/en/toolkit/lmb_mock_tools_wrapper.md) | Allows to use mock objects with lmbToolkit.
 [lmbCompositeToolkitTools](../../../toolkit/docs/en/toolkit/lmb_composite_toolkit_tools.md) | Allows to compose several tools within one container.
 [lmbCompositeNonItersectingToolkitTools](../../../toolkit/docs/en/toolkit/lmb_composite_non_itersecting_toolkit_tools.md) | A child of lmbCompositeToolkitTools class. This class prevents tools from intersection.
