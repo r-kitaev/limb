@@ -41,3 +41,5 @@
 * [Как создать простейшее CRUD-приложение](./ru/tutorials/basic.md)
 * [Как создать электронный магазин при помощи Limb3](./ru/tutorials/shop.md)
 * [Как интегрировать Zend_Search с Limb3](./ru/tutorials/zend_search.md)
+
+[Недостающие документы](./new_files.md)
